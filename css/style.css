@@ -1,0 +1,99 @@
+/* ---------------------------------- BODY ---------------------------------- */
+body {
+  background-color: #f0f0f0;
+}
+/* --------------------------------- NAVBAR --------------------------------- */
+
+.nav-link:hover {
+  color: white !important;
+}
+/* --------------------------------- HEADER --------------------------------- */
+.card-img-overlay {
+  top: 5%;
+  left: 5%;
+}
+/* ---------------------------------- MAIN ---------------------------------- */
+.posted-on {
+  font-style: italic;
+}
+.posted-on a:hover {
+  text-decoration: none;
+}
+.blog-post-p {
+  line-height: 1.875rem;
+}
+.img-shadow {
+  box-shadow: 3px 3px 7px #777;
+}
+
+.comment a {
+  color: black;
+}
+.comment a:hover {
+  text-decoration: none;
+}
+.accordion-button:not(.collapsed) {
+  background-color: rgb(211, 211, 211);
+}
+.accordion-button:not(.collapsed) span {
+  color: black;
+}
+.accordion-button:focus {
+  box-shadow: 0 0 0 0.25rem rgba(163, 163, 163, 0.25);
+}
+.form-control:focus {
+  border-color: rgb(163, 163, 163);
+  outline: 0;
+  box-shadow: 0 0 0 0.25rem rgba(163, 163, 163, 0.25);
+}
+input,
+textarea {
+  background-color: white !important;
+  padding:0px;
+  margin-left: 10px;
+}
+label{
+  padding: 0px !important;
+}
+
+/* ---------------------------------- ASIDE --------------------------------- */
+aside {
+  background-color: #e3e3e36a;
+}
+aside a {
+  text-decoration: none;
+  color: black;
+}
+aside a:hover {
+  text-decoration: underline;
+}
+aside li {
+  list-style-type: none;
+}
+.aside1,
+.aside2 {
+  background: url(../images/sidebar_section_background.png) repeat-x;
+  border-radius: 11px;
+}
+/* ---------------------------------- ASIDE --------------------------------- */
+/* --------------------------------- FOOTER --------------------------------- */
+footer {
+  background: #222;
+}
+footer p {
+  color: #777777;
+}
+footer a {
+  color: #777777;
+}
+footer li {
+  list-style-type: square;
+}
+footer a:hover {
+  text-decoration: none;
+  color: white;
+}
+footer li::marker {
+  color: #777;
+}
+
